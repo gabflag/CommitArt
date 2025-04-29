@@ -23,9 +23,9 @@ while [ "$current_date" != "$end_date" ]; do
 done
 
 # Push final
-git push origin master
+git push origin main
 
 # Commit de limpeza (opcional)
 echo "" > commit.md
 git commit -am "Cleanup"
-git push origin master
+git push origin main
